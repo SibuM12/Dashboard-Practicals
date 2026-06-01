@@ -1,226 +1,270 @@
-# Retail Sales Dashboard – Power BI
-
-## Project Overview
-
-This project presents an interactive **Retail Sales Analytics Dashboard** built using **Microsoft Power BI**.
-
-The dashboard analyzes retail transaction data to uncover key business insights, monitor performance trends and support data-driven decision-making.
-
-The report is designed as a **multi-page interactive dashboard** with navigation buttons, KPI cards, filters and advanced visualizations.
+**Business-Intelligence-Dashboard-Portfolio**
 
 ---
 
-## Business Objective
+# Business Intelligence Dashboard Portfolio
 
-The goal of this dashboard is to help retail decision-makers:
+## Overview
 
-* Monitor sales performance
-* Track customer purchasing behavior
-* Identify top-performing product categories
-* Analyze sales trends over time
-* Understand customer demographics
-* Improve strategic decision-making
+This repository showcases a collection of end-to-end business intelligence and data analytics projects developed using modern analytics tools and dashboarding platforms.
 
----
+The projects demonstrate practical applications of data cleaning, transformation, analysis, and visual storytelling using both Google Looker Studio and Microsoft Power BI.
 
-## Dataset Information
-
-The dataset contains retail transaction records with the following fields:
-
-* Transaction ID
-* Date
-* Customer ID
-* Gender
-* Age
-* Product Category
-* Quantity
-* Price per Unit
-* Total Amount
+Each project focuses on transforming raw datasets into actionable insights through structured analysis, interactive dashboards, and business-driven recommendations.
 
 ---
 
-## Tools & Technologies Used
+## Portfolio Projects
 
-* **Microsoft Power BI**
-* DAX (Data Analysis Expressions)
-* Data Modeling
-* Interactive Navigation
-* Data Transformation
+This repository contains three business intelligence dashboard projects:
+
+### 1. Bright Coffee Shop Analysis
+
+A transactional sales analysis project focused on understanding customer purchasing behaviour and identifying opportunities to improve operational performance and revenue generation.
+
+#### Project Focus
+
+* Revenue performance analysis
+* Product category insights
+* Time-based sales trends
+* Customer purchasing patterns
+* Strategic business recommendations
+
+#### Key Insights
+
+* Identification of top-performing products
+* Peak and off-peak sales periods
+* Revenue contribution by product category
+* Opportunities for targeted promotions
+
+#### Dashboard Tools
+
+* Google Looker Studio
+* Microsoft Power BI
+* Databricks
+* Microsoft Excel
+
+---
+
+### 2. Retail Sales Dashboard
+
+A retail analytics project designed to evaluate sales performance, customer behaviour, and product-level business performance across multiple retail dimensions.
+
+#### Project Focus
+
+* Revenue trend analysis
+* Product performance evaluation
+* Geographic sales distribution
+* Customer segmentation
+* Seasonal sales analysis
+
+#### Key Insights
+
+* High-performing product categories
+* Regional revenue patterns
+* Sales fluctuations across seasons
+* Customer retention opportunities
+
+#### Dashboard Tools
+
+* Google Looker Studio
+* Microsoft Power BI
+* SQL
+* Data visualisation frameworks
+
+---
+
+### 3. Shopping Trends Dashboard
+
+A customer shopping behaviour analysis project built to explore consumer purchasing habits, payment preferences, subscription behaviour, and demographic trends.
+
+#### Project Focus
+
+* Customer purchase behaviour
+* Revenue distribution by category
+* Geographic shopping trends
+* Payment method preferences
+* Subscription and loyalty insights
+
+#### Key Insights
+
+* Revenue contribution by shopping category
+* Seasonal shopping patterns
+* Customer segmentation by age and gender
+* High-value customer opportunities
+
+#### Dashboard Tools
+
+* Google Looker Studio
+* Microsoft Power BI
+* Data transformation workflows
+* Interactive reporting
+
+---
+
+## Dashboard Development Approach
+
+Each project followed a structured analytics workflow:
+
+### Data Collection
+
+Raw datasets were sourced in spreadsheet format and prepared for transformation.
+
+---
+
+### Data Cleaning and Transformation
+
+Data preprocessing included:
+
+* Handling missing values
+* Standardising formats
+* Creating calculated fields
+* Deriving analytical dimensions
+* Preparing analysis-ready datasets
+
+---
+
+### Data Analysis
+
+Analysis was performed using:
+
+* SQL queries
+* Aggregation logic
+* KPI calculations
+* Trend analysis
+* Behavioural segmentation
+
+---
+
+### Dashboard Visualisation
+
+Interactive dashboards were developed with:
+
+* Multi-page report structures
+* Drill-down analysis
+* KPI cards
+* Comparative trend charts
+* Interactive page navigation
+* Executive reporting layouts
+
+---
+
+## Dashboard Features
+
+Across all projects, dashboards include:
+
+### Executive KPI Reporting
+
+* Revenue
+* Transactions
+* Customer counts
+* Average purchase value
+
+### Interactive Navigation
+
+Clickable dashboard buttons allow seamless navigation across analytical pages.
+
+### Advanced Visualisations
+
+* Line Charts
+* Clustered Bar Charts
+* Donut Charts
+* Treemaps
+* Scatter Plots
+* Heatmaps
+* Geographic Analysis
+* Funnel Charts
+* Waterfall Charts
+* Decomposition Trees
+
+---
+
+## Tools and Technologies
+
+### Data Processing
+
+* Databricks
+* SQL
+* Data transformation workflows
+
+### Dashboarding
+
+* Google Looker Studio
+* Microsoft Power BI
+
+### Supporting Tools
+
+* Microsoft Excel
+* Google Sheets
+* Canva
+* Miro
+
+---
+
+## Repository Structure
+
+```plaintext
+Business-Intelligence-Dashboard-Portfolio/
+│
+├── Bright-Coffee-Shop/
+│   ├── datasets/
+│   ├── dashboards/
+│   ├── reports/
+│   └── sql/
+│
+├── Retail-Sales-Dashboard/
+│   ├── datasets/
+│   ├── dashboards/
+│   ├── reports/
+│   └── sql/
+│
+├── Shopping-Trends-Dashboard/
+│   ├── datasets/
+│   ├── dashboards/
+│   ├── reports/
+│   └── sql/
+│
+└── README.md
+```
+
+---
+
+## Skills Demonstrated
+
+This portfolio demonstrates practical experience in:
+
+* Business Intelligence Reporting
+* Data Cleaning and Transformation
 * Dashboard Design
+* Interactive Data Visualisation
+* SQL Analysis
+* Data Storytelling
+* KPI Development
+* Business Insight Generation
+* Executive Reporting
 
 ---
 
-## Key Metrics Created
-
-### Total Revenue
-
-Measures total sales generated.
-
-### Total Transactions
-
-Tracks the total number of unique transactions.
-
-### Average Sale Value
-
-Calculates average transaction value.
-
-### Total Quantity Sold
-
-Measures total products sold.
-
----
-
-## Calculated Columns
-
-### Spender Category
-
-Segments customers into:
-
-* Low Spenders
-* Medium Spenders
-* High Spenders
-
----
-
-### Age Group
-
-Customer segmentation by age:
-
-* 18–25
-* 26–35
-* 36–50
-* 51+
-
----
-
-## Dashboard Pages
-
-## 1. Executive Overview
-
-Provides high-level business performance metrics.
-
-### Visualizations:
-
-* KPI Cards
-* Revenue Trend Line Chart
-* Revenue by Product Category
-* Gender Distribution Donut Chart
-
----
-
-## 2. Sales Performance
-
-Tracks operational sales trends.
-
-### Visualizations:
-
-* Monthly Sales Trend
-* Daily Transaction Volume
-* Revenue vs Quantity Scatter Plot
-
----
-
-## 3. Customer Insights
-
-Analyzes customer purchasing behavior.
-
-### Visualizations:
-
-* Revenue by Age Group
-* Gender Revenue Comparison
-* Spending Category Treemap
-* Age vs Spending Scatter Plot
-
----
-
-## 4. Product Analysis
-
-Evaluates product category performance.
-
-### Visualizations:
-
-* Product Category Treemap
-* Quantity Sold by Category
-* Average Sale by Category
-
----
-
-## 5. Time Analysis
-
-Identifies seasonal and time-based trends.
-
-### Visualizations:
-
-* Sales Heatmap
-* Ribbon Chart for Category Trends
-
----
-
-## Interactive Features
-
-The dashboard includes:
-
-* Page Navigation Buttons
-* Interactive Filters / Slicers
-* Drill-through Analysis
-* Hover Tooltips
-* Dynamic Cross-filtering
-
----
-
-## DAX Measures Used
-
-### Total Revenue
-
-```DAX
-Total Revenue = SUM('Retail Sales'[Total Amount])
-```
-
-### Total Transactions
-
-```DAX
-Total Transactions = DISTINCTCOUNT('Retail Sales'[Transaction ID])
-```
-
-### Average Sale Value
-
-```DAX
-Average Sale Value = AVERAGE('Retail Sales'[Total Amount])
-```
-
-### Total Quantity Sold
-
-```DAX
-Total Quantity Sold = SUM('Retail Sales'[Quantity])
-```
-
----
-
-## Business Insights Generated
-
-This dashboard enables stakeholders to:
-
-* Identify high-performing product categories
-* Detect customer purchasing trends
-* Evaluate demographic spending patterns
-* Monitor revenue growth
-* Support strategic retail planning
-
----
-
-## Project Outcome
-
-This project demonstrates practical skills in:
-
-* Data Visualization
-* Business Intelligence
-* Dashboard Design
-* DAX Calculations
-* Interactive Reporting
-* Analytical Storytelling
+## Business Value Delivered
+
+These projects highlight how data analytics can support better business decision-making through:
+
+* Revenue optimisation
+* Customer behaviour analysis
+* Operational efficiency improvements
+* Strategic product recommendations
+* Performance monitoring frameworks
 
 ---
 
 ## Author
 
 Sibulelo Mafrika
+
+---
+
+## Final Reflection
+
+This portfolio reflects the application of business intelligence principles to solve real-world analytical problems.
+
+By combining technical analytics skills with business storytelling, these projects demonstrate how raw data can be transformed into strategic insights that drive measurable decision-making.
